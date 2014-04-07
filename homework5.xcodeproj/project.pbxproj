@@ -19,6 +19,18 @@
 		1179B68518F23D0B005C7DDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1179B66D18F23D0B005C7DDB /* UIKit.framework */; };
 		1179B68D18F23D0B005C7DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1179B68B18F23D0B005C7DDB /* InfoPlist.strings */; };
 		1179B68F18F23D0B005C7DDB /* homework5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B68E18F23D0B005C7DDB /* homework5Tests.m */; };
+		1179B69B18F2427C005C7DDB /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B69918F2427C005C7DDB /* NewsFeedViewController.m */; };
+		1179B69C18F2427C005C7DDB /* NewsFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B69A18F2427C005C7DDB /* NewsFeedViewController.xib */; };
+		1179B6A018F243ED005C7DDB /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B69E18F243ED005C7DDB /* NotificationsViewController.m */; };
+		1179B6A118F243ED005C7DDB /* NotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B69F18F243ED005C7DDB /* NotificationsViewController.xib */; };
+		1179B6A518F24507005C7DDB /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B6A318F24507005C7DDB /* RequestsViewController.m */; };
+		1179B6A618F24507005C7DDB /* RequestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6A418F24507005C7DDB /* RequestsViewController.xib */; };
+		1179B6AA18F24585005C7DDB /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B6A818F24585005C7DDB /* MessagesViewController.m */; };
+		1179B6AB18F24585005C7DDB /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6A918F24585005C7DDB /* MessagesViewController.xib */; };
+		1179B6AF18F2458E005C7DDB /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B6AD18F2458E005C7DDB /* MoreViewController.m */; };
+		1179B6B018F2458E005C7DDB /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6AE18F2458E005C7DDB /* MoreViewController.xib */; };
+		1179B6B418F2569F005C7DDB /* NotificationsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1179B6B218F2569F005C7DDB /* NotificationsTableViewCell.m */; };
+		1179B6B518F2569F005C7DDB /* NotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1179B6B318F2569F005C7DDB /* NotificationsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,24 @@
 		1179B68A18F23D0B005C7DDB /* homework5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework5Tests-Info.plist"; sourceTree = "<group>"; };
 		1179B68C18F23D0B005C7DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1179B68E18F23D0B005C7DDB /* homework5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework5Tests.m; sourceTree = "<group>"; };
+		1179B69818F2427C005C7DDB /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		1179B69918F2427C005C7DDB /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		1179B69A18F2427C005C7DDB /* NewsFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsFeedViewController.xib; sourceTree = "<group>"; };
+		1179B69D18F243ED005C7DDB /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		1179B69E18F243ED005C7DDB /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		1179B69F18F243ED005C7DDB /* NotificationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsViewController.xib; sourceTree = "<group>"; };
+		1179B6A218F24507005C7DDB /* RequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsViewController.h; sourceTree = "<group>"; };
+		1179B6A318F24507005C7DDB /* RequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsViewController.m; sourceTree = "<group>"; };
+		1179B6A418F24507005C7DDB /* RequestsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestsViewController.xib; sourceTree = "<group>"; };
+		1179B6A718F24585005C7DDB /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		1179B6A818F24585005C7DDB /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		1179B6A918F24585005C7DDB /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
+		1179B6AC18F2458E005C7DDB /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		1179B6AD18F2458E005C7DDB /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		1179B6AE18F2458E005C7DDB /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		1179B6B118F2569F005C7DDB /* NotificationsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsTableViewCell.h; sourceTree = "<group>"; };
+		1179B6B218F2569F005C7DDB /* NotificationsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsTableViewCell.m; sourceTree = "<group>"; };
+		1179B6B318F2569F005C7DDB /* NotificationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +141,24 @@
 				1179B67918F23D0B005C7DDB /* AppDelegate.m */,
 				1179B67B18F23D0B005C7DDB /* Images.xcassets */,
 				1179B67018F23D0B005C7DDB /* Supporting Files */,
+				1179B69818F2427C005C7DDB /* NewsFeedViewController.h */,
+				1179B69918F2427C005C7DDB /* NewsFeedViewController.m */,
+				1179B69A18F2427C005C7DDB /* NewsFeedViewController.xib */,
+				1179B69D18F243ED005C7DDB /* NotificationsViewController.h */,
+				1179B69E18F243ED005C7DDB /* NotificationsViewController.m */,
+				1179B69F18F243ED005C7DDB /* NotificationsViewController.xib */,
+				1179B6A218F24507005C7DDB /* RequestsViewController.h */,
+				1179B6A318F24507005C7DDB /* RequestsViewController.m */,
+				1179B6A418F24507005C7DDB /* RequestsViewController.xib */,
+				1179B6A718F24585005C7DDB /* MessagesViewController.h */,
+				1179B6A818F24585005C7DDB /* MessagesViewController.m */,
+				1179B6A918F24585005C7DDB /* MessagesViewController.xib */,
+				1179B6AC18F2458E005C7DDB /* MoreViewController.h */,
+				1179B6AD18F2458E005C7DDB /* MoreViewController.m */,
+				1179B6AE18F2458E005C7DDB /* MoreViewController.xib */,
+				1179B6B118F2569F005C7DDB /* NotificationsTableViewCell.h */,
+				1179B6B218F2569F005C7DDB /* NotificationsTableViewCell.m */,
+				1179B6B318F2569F005C7DDB /* NotificationsTableViewCell.xib */,
 			);
 			path = homework5;
 			sourceTree = "<group>";
@@ -219,8 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1179B6AB18F24585005C7DDB /* MessagesViewController.xib in Resources */,
 				1179B67418F23D0B005C7DDB /* InfoPlist.strings in Resources */,
+				1179B6A118F243ED005C7DDB /* NotificationsViewController.xib in Resources */,
+				1179B69C18F2427C005C7DDB /* NewsFeedViewController.xib in Resources */,
+				1179B6B518F2569F005C7DDB /* NotificationsTableViewCell.xib in Resources */,
+				1179B6B018F2458E005C7DDB /* MoreViewController.xib in Resources */,
 				1179B67C18F23D0B005C7DDB /* Images.xcassets in Resources */,
+				1179B6A618F24507005C7DDB /* RequestsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1179B6A518F24507005C7DDB /* RequestsViewController.m in Sources */,
 				1179B67A18F23D0B005C7DDB /* AppDelegate.m in Sources */,
+				1179B6AA18F24585005C7DDB /* MessagesViewController.m in Sources */,
+				1179B6A018F243ED005C7DDB /* NotificationsViewController.m in Sources */,
+				1179B6B418F2569F005C7DDB /* NotificationsTableViewCell.m in Sources */,
 				1179B67618F23D0B005C7DDB /* main.m in Sources */,
+				1179B6AF18F2458E005C7DDB /* MoreViewController.m in Sources */,
+				1179B69B18F2427C005C7DDB /* NewsFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +499,7 @@
 				1179B69418F23D0B005C7DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1179B69518F23D0B005C7DDB /* Build configuration list for PBXNativeTarget "homework5Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +508,7 @@
 				1179B69718F23D0B005C7DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
